@@ -1,9 +1,9 @@
 {
-  "name": "atom-light-syntax",
+  "name": "suranyami-light-syntax",
   "theme": "syntax",
   "version": "0.17.0",
-  "description": "Default light syntax theme",
-  "repository": "https://github.com/atom/atom-light-syntax",
+  "description": "Suranyami light syntax theme",
+  "repository": "https://github.com/suranyami/suranyami-light-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.40.0"

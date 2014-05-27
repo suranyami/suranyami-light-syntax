@@ -1,9 +1,7 @@
-# Atom Light Syntax theme
+# Suranyami Light Syntax theme
 
-Default light syntax theme for Atom.
+A light syntax theme for Atom based on atom-light-syntax.
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_Syntax Themes_ dropdown menu.
+The major difference is the addition of different colours for interpolated
+string expressions and making the gruddamn text black, for fuck's sake.
 
-![](https://f.cloud.github.com/assets/671378/2264690/886ce496-9e75-11e3-971a-9a24f359c481.png)
