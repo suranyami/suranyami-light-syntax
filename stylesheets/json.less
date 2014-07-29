@@ -1,12 +1,26 @@
 .dictionary.json {
 
   .numeric.json {
-    color: @yellow;
+    color: @green;
+    font-weight: bold;
   }
 
   .string.quoted.double.json {
     color: @cyan;
   }
+
+  .array.json {
+    >.punctuation {
+      color: @red;
+    }
+    >.string.double.quoted.json {
+    color: @blue;
+    .punctuation {
+      color: @blue;
+    }
+    }
+  }
+
   .dictionary.value.json >.string.double.quoted.json {
     color: @violet;
     .punctuation {
