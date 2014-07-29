@@ -16,5 +16,5 @@ Publishing this theme
 =====================
 
 ```bash
-apm help publish
+apm publish minor
 ```
