@@ -10,7 +10,7 @@ string expressions and making the gruddamn text black, for fuck's sake.
 Versions
 ========
 
-* **0.5.1** Added better JSON highlighting. Different colours for key, value, boolean & numeric
+* Added better JSON highlighting. Different colours for key, value, boolean & numeric
 
 Publishing this theme
 =====================
