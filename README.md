@@ -9,7 +9,7 @@ string expressions and making the gruddamn text black, for fuck's sake.
 
 Versions
 ========
-
+* Added better array highlighting in JSON.
 * Added better JSON highlighting. Different colours for key, value, boolean & numeric
 
 Publishing this theme
