@@ -1,22 +1,26 @@
 @import "colors";
 
+.html {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
 .editor-colors {
   background-color: @syntax-background-color;
-  color: @syntax-text-color;
+  color:            @syntax-text-color;
 }
 
 .editor {
   .invisible-character{
-    color: @syntax-invisible-character-color;
+    color:            @syntax-invisible-character-color;
   }
 
   .indent-guide {
-    color: @syntax-indent-guide-color;
+    color:            @syntax-indent-guide-color;
   }
 
   .gutter {
     background-color: @syntax-gutter-background-color;
-    color: @syntax-gutter-text-color;
+    color:            @syntax-gutter-text-color;
   }
 
   .gutter .line-number {
