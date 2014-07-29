@@ -11,3 +11,10 @@ Versions
 ========
 
 * **0.5.1** Added better JSON highlighting. Different colours for key, value, boolean & numeric
+
+Publishing this theme
+=====================
+
+```bash
+apm help publish
+```
