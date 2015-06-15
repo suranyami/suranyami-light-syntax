@@ -1,14 +1,18 @@
 @import "colors";
+@import "syntax-variables";
 
 .html {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
+ .scroll-view {
+   background-color: @syntax-background-color;
+ }
+ 
 atom-text-editor,
 :host {
   background-color: @syntax-background-color;
   color:            @syntax-text-color;
-
+  
   .invisible-character {
     color:          @syntax-invisible-character-color;
   }
