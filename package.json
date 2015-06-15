@@ -1,11 +1,11 @@
 {
   "name": "suranyami-light-syntax",
   "theme": "syntax",
-  "version": "0.8.0",
+  "version": "0.9.1",
   "description": "Suranyami light syntax theme",
   "repository": "https://github.com/suranyami/suranyami-light-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.120.0"
+    "atom": ">0.208.0"
   }
 }
