@@ -6,6 +6,6 @@
   "repository": "https://github.com/suranyami/suranyami-light-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.208.0"
+    "atom": ">0.40.0"
   }
 }

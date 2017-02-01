@@ -1,29 +1,29 @@
-.dictionary.json {
+.syntax--dictionary.syntax--json {
 
-  .numeric.json {
+  .syntax--numeric.syntax--json {
     color: @green;
     font-weight: bold;
   }
 
-  .string.quoted.double.json {
+  .syntax--string.syntax--quoted.syntax--double.syntax--json {
     color: @cyan;
   }
 
-  .array.json {
-    >.punctuation {
+  .syntax--array.syntax--json {
+    >.syntax--punctuation {
       color: @red;
     }
-    >.string.double.quoted.json {
+    >.syntax--string.syntax--double.syntax--quoted.syntax--json {
     color: @blue;
-    .punctuation {
+    .syntax--punctuation {
       color: @blue;
     }
     }
   }
 
-  .dictionary.value.json >.string.double.quoted.json {
+  .syntax--dictionary.syntax--value.syntax--json >.syntax--string.syntax--double.syntax--quoted.syntax--json {
     color: @violet;
-    .punctuation {
+    .syntax--punctuation {
       color: @violet;
     }
   }

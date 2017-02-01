@@ -1,5 +1,5 @@
 atom-text-editor,
-:host {
+atom-text-editor {
   .gutter {
     .git-line-modified {
       border-left: 2px solid @syntax-color-modified;
@@ -21,18 +21,18 @@ atom-text-editor,
   }
 }
 
-.meta.diff, .meta.diff.header {
+.syntax--meta.syntax--diff, .syntax--meta.syntax--diff.syntax--header {
   color: #75715E;
 }
 
-.markup.deleted {
+.syntax--markup.syntax--deleted {
   color: darken(#F92672, 10%);
 }
 
-.markup.inserted {
+.syntax--markup.syntax--inserted {
   color: darken(#A6E22E, 10%);
 }
 
-.markup.changed {
+.syntax--markup.syntax--changed {
   color: darken(#E6DB74, 10%);
 }

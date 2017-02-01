@@ -1,18 +1,18 @@
 @import "colors";
 @import "syntax-variables";
 
-.html {
+.syntax--html {
   -webkit-font-smoothing: subpixel-antialiased;
 }
  .scroll-view {
    background-color: @syntax-background-color;
  }
- 
+
 atom-text-editor,
-:host {
+atom-text-editor {
   background-color: @syntax-background-color;
   color:            @syntax-text-color;
-  
+
   .invisible-character {
     color:          @syntax-invisible-character-color;
   }
@@ -54,89 +54,89 @@ atom-text-editor,
   opacity: 0.5;
 }
 
-.comment {
+.syntax--comment {
   color: @base1;
   font-style: italic;
 }
 
-.entity {
+.syntax--entity {
   color: @yellow;
 }
 
-.keyword {
+.syntax--keyword {
   color: @green;
 }
 
-.storage.type {
+.syntax--storage, .syntax--type {
   color: @green;
 }
 
 @constant-color: @yellow;
 
-.constant {
+.syntax--constant {
   color: @constant-color;
 
-  &.numeric {
+  &.syntax--numeric {
     color: spin(@constant-color, -20%);
   }
 
-  &.boolean {
+  &.syntax--boolean {
     color: spin(@constant-color, 20%);
   }
 
-  &.language {
+  &.syntax--language {
     color: @orange;
   }
 
-  &.character,
-  &.other {
+  &.syntax--character,
+  &.syntax--other {
     color: darken(spin(@constant-color, 60%), 20%);
   }
 
-  &.symbol {
+  &.syntax--symbol {
     color: spin(@constant-color, 80%);
   }
 
-  &.numeric.line-number.find-in-files .match {
+  &.syntax--numeric.line-number.syntax--find-in-files .syntax--match {
     color: rgba(143, 190, 0, 0.63);
   }
 }
 
-.variable {
+.syntax--variable {
   color: @blue;
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
   color: @red;
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
   color: @green;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @red;
 }
 
 @string-color: @cyan;
 
-.string {
+.syntax--string {
   color: @string-color;
 
-  .constant.character.escape {
+  .syntax--constant.syntax--character.syntax--escape {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: @cyan;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
+    .syntax--source.syntax--ruby.syntax--embedded,
+    .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
       color: @red;
     }
   }
@@ -146,16 +146,16 @@ atom-text-editor,
 @string-punct: darken(@red, 10%);
 
 // String interpolation in Ruby, CoffeeScript, and others
-.source .string {
-  .source,
-  .meta.embedded.line {
+.syntax--source .syntax--string {
+  .syntax--source,
+  .syntax--meta.syntax--embedded.line {
     color: @string-interp;
   }
 
-  .punctuation.section.embedded {
+  .syntax--punctuation.syntax--section.syntax--embedded {
     color: @string-punct;
 
-    .source {
+    .syntax--source {
       color: @string-punct;  // Required for the end of embedded strings in Ruby #716
     }
   }
